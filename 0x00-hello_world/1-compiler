@@ -1,0 +1,2 @@
+#!/bin/basj
+gcc -S $CFILE -o "$(echo $CFILE | cut -d'.' -f 1 ).s"
